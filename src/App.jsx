@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import { onWorkPage, LoadingPage, AboutMePage } from "./page";
+import {
+  OnWorkPage,
+  LoadingPage,
+  AboutMePage,
+  PhotoPage,
+  DevelopPage,
+  ContactPage,
+} from "./page";
 import ContentWarp from "./components/warpper/ContentWarp";
 import "./App.css";
 import "csshake/dist/csshake.min.css";
@@ -25,10 +32,22 @@ export default function App() {
   return (
     <>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<ContentWarp content={onWorkPage} />} />
+        <Route path="/" element={<OnWorkPage />} />
         <Route
           path="/aboutme"
           element={<ContentWarp content={AboutMePage} />}
+        />
+        <Route
+          path="/photograph"
+          element={<ContentWarp content={PhotoPage} />}
+        />
+        <Route
+          path="/develop"
+          element={<ContentWarp content={DevelopPage} />}
+        />
+        <Route
+          path="/contact"
+          element={<ContentWarp content={ContactPage} />}
         />
       </Routes>
     </>

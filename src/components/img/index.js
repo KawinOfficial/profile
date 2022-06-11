@@ -6,3 +6,4 @@ export { default as loadingImg } from "./loadingImg.png";
 export { default as Monitor } from "./Monitor.png";
 export { default as workImg } from "./workImg.png";
 export { default as bgFooter } from "./bg.png";
+export { default as Logo } from "./Logo.png";

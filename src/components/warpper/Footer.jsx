@@ -106,7 +106,7 @@ export default function Footer() {
     <>
       {screen ? (
         <React.Fragment>
-          <Box mt="21vh" h="10vh" position="relative" textAlign="center">
+          <Box mt="21vh" h="11vh" position="relative" textAlign="center">
             <Wave />
             <Button onClick={onOpen} rounded="full" bgColor="#eee">
               <Text>Need Contact?</Text>
@@ -124,7 +124,6 @@ export default function Footer() {
           overflowX="auto"
           minH="300px"
           h="30vh"
-          w="100vw"
         >
           <Wave />
           <Image
