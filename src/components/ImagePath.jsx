@@ -8,3 +8,4 @@ export const bgWavePath = "";
 export const footerImgPath = "";
 export const loadingPath = "";
 export const logoPath = "";
+export const coverPath = "";

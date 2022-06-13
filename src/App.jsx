@@ -32,7 +32,13 @@ export default function App() {
   return (
     <>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<OnWorkPage />} />
+        <Route
+          exact
+          path="/"
+          element={
+            success ? <ContentWarp content={AboutMePage} /> : <OnWorkPage />
+          }
+        />
         <Route
           path="/aboutme"
           element={<ContentWarp content={AboutMePage} />}

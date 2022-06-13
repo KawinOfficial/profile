@@ -7,3 +7,4 @@ export { default as Monitor } from "./Monitor.png";
 export { default as workImg } from "./workImg.png";
 export { default as bgFooter } from "./bg.png";
 export { default as Logo } from "./Logo.png";
+export { default as Cover } from "./Cover.jpeg";

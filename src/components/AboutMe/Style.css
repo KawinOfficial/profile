@@ -1,0 +1,13 @@
+.cover-image {
+  transform-style: preserve-3d;
+  /* transform: perspective(1000px); */
+  background-image: url("../img/Cover.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.cover-image .inner-element {
+  transform: translateZ(40px) scale(0.8);
+  height: 60vh;
+}
