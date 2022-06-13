@@ -7,15 +7,17 @@ import { motion } from "framer-motion";
 export default function ContentWarp({ content: Content }) {
   return (
     <>
-      <Nav />
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
-      >
-        <Content />
-        <Footer />
-      </motion.div>
+      <Box>
+        <Nav />
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8 }}
+        >
+          <Content />
+        </motion.div>
+      </Box>
+      <Footer />
     </>
   );
 }

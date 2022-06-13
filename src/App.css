@@ -1,13 +1,14 @@
 * {
   font-family: "IBM Plex Sans Thai", sans-serif;
 }
+
 .text-rotate {
   transform-origin: 0 0;
   transform: rotate(90deg);
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
 }
 
 ::-webkit-scrollbar-track {

@@ -6,9 +6,10 @@ import { PageCover } from "../components/AboutMe";
 export default function AboutMePage() {
   return (
     <>
-      <Center h="95vh" border="1px">
+      <Center h="100vh">
         <PageCover />
       </Center>
+
       <Box h="95vh" border="1px">
         <motion.div
           initial={{ opacity: 0, y: 100 }}
@@ -19,6 +20,7 @@ export default function AboutMePage() {
           Second page Testing motion
         </motion.div>
       </Box>
+
       <Box h="95vh" border="1px">
         Third page
       </Box>

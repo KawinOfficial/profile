@@ -50,7 +50,6 @@ export default function Nav() {
               aria-label="Options"
               icon={<Icon as={MdKeyboardArrowDown} />}
               rounded="full"
-              variant="outline"
             />
 
             <MenuList>
