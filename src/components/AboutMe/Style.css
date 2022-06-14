@@ -12,3 +12,9 @@
   transform: translateZ(50px) scale(0.97);
   border-radius: 15px;
 }
+
+.cover-image .inner-element:hover {
+  transform: translateZ(60px) scale(0.98);
+  border-radius: 15px;
+}
+

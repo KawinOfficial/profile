@@ -25,3 +25,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+.text-cover {
+  font-family: 'Leckerli One', cursive;
+}
+
